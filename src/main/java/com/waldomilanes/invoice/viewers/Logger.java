@@ -1,13 +1,12 @@
 
-package com.waldomilanes.invoiceviewers;
+package com.waldomilanes.invoice.viewers;
 
-
-import com.waldomilanes.invoicepojos.Productos;
-import com.waldomilanes.invoicepojos.Session;
-import com.waldomilanes.invoicepojos.User;
-import com.waldomilanes.invoicewebservice.SessionController;
-import com.waldomilanes.invoicerestcontrollers.UserRESTController;
-import com.waldomilanes.invoiceutilities.GeneralMethods;
+import com.waldomilanes.invoice.pojos.Productos;
+import com.waldomilanes.invoice.pojos.Session;
+import com.waldomilanes.invoice.pojos.User;
+import com.waldomilanes.invoice.webservice.SessionController;
+import com.waldomilanes.invoice.restcontrollers.UserRESTController;
+import com.waldomilanes.invoice.utilities.GeneralMethods;
 import java.awt.Dimension;
 import static java.lang.Thread.sleep;
 import java.util.Date;

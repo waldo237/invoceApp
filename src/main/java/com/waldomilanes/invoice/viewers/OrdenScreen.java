@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.waldomilanes.invoiceviewers;
+package com.waldomilanes.invoice.viewers;
 
-import com.waldomilanes.invoicejpacontrollers.Decision;
-import com.waldomilanes.invoicejpacontrollers.ModeloJpaController;
-import com.waldomilanes.invoicepojos.Orden;
-import com.waldomilanes.invoicerestcontrollers.OrdenRESTController;
+import com.waldomilanes.invoice.jpacontrollers.Decision;
+import com.waldomilanes.invoice.jpacontrollers.ModeloJpaController;
+import com.waldomilanes.invoice.pojos.Orden;
+import com.waldomilanes.invoice.restcontrollers.OrdenRESTController;
 import java.awt.Color;
 import java.awt.Frame;
 import java.sql.Date;

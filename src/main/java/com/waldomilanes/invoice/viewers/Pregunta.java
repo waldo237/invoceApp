@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.waldomilanes.invoiceviewers;
+package com.waldomilanes.invoice.viewers;
 
 import java.awt.Frame;
 import javax.swing.JOptionPane;

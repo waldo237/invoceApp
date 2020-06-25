@@ -3,8 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.itla.finals;
-
+package com.waldomilanes.invoice;
 import com.waldomilanes.invoice.viewers.Logger;
 import static java.lang.Thread.sleep;
 import javax.swing.ImageIcon;
