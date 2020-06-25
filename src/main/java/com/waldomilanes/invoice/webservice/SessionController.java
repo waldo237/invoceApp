@@ -1,8 +1,8 @@
 
-package com.waldomilanes.invoicewebservice;
+package com.waldomilanes.invoice.webservice;
 
-import com.waldomilanes.invoicepojos.Session;
-import com.waldomilanes.invoiceservices.SessionService;
+import com.waldomilanes.invoice.pojos.Session;
+import com.waldomilanes.invoice.services.SessionService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -18,14 +18,14 @@ import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlTransient;
+// import javax.xml.bind.annotation.XmlRootElement;
+// import javax.xml.bind.annotation.XmlTransient;
 import org.springframework.stereotype.Component;
 
 @Component
 @Entity
 @Table(name = "user", catalog = "postgres", schema = "public")
-@XmlRootElement
+// @XmlRootElement
 @NamedQueries({
     @NamedQuery(name = "User.findAll", query = "SELECT u FROM User u")
     , @NamedQuery(name = "User.findByIduser", query = "SELECT u FROM User u WHERE u.iduser = :iduser")
@@ -109,7 +109,7 @@ public class User implements Serializable {
         return "id=" + iduser +"Nombre"+ this.getName()+ this.getPassword();
     }
 
-    @XmlTransient
+    // @XmlTransient
     public Collection<Session> getSessionCollection() {
         return sessionCollection;
     }

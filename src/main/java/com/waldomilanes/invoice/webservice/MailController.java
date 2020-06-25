@@ -1,10 +1,10 @@
-package com.waldomilanes.invoicewebservice;
+package com.waldomilanes.invoice.webservice;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.waldomilanes.invoiceutilities.SmtpMailSender;
+import com.waldomilanes.invoice.utilities.SmtpMailSender;
 
 @RestController
 public class MailController {

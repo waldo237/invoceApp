@@ -1,24 +1,21 @@
 
 package com.waldomilanes.invoice.viewers;
-
-import com.waldomilanes.invoice.pojos.Productos;
-import com.waldomilanes.invoice.pojos.Session;
-import com.waldomilanes.invoice.pojos.User;
-import com.waldomilanes.invoice.webservice.SessionController;
-import com.waldomilanes.invoice.restcontrollers.UserRESTController;
-import com.waldomilanes.invoice.utilities.GeneralMethods;
 import java.awt.Dimension;
-import static java.lang.Thread.sleep;
-import java.util.Date;
 import java.sql.Timestamp;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.logging.Level;
+import java.util.Date;
+
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.JRootPane;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
+
+import com.waldomilanes.invoice.pojos.Session;
+import com.waldomilanes.invoice.pojos.User;
+import com.waldomilanes.invoice.restcontrollers.UserRESTController;
+import com.waldomilanes.invoice.webservice.SessionController;
 
 
 public class Logger extends javax.swing.JFrame {

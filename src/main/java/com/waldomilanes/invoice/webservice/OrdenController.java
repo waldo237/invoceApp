@@ -1,7 +1,7 @@
-package com.waldomilanes.invoicewebservice;
+package com.waldomilanes.invoice.webservice;
 
-import com.waldomilanes.invoicepojos.Orden;
-import com.waldomilanes.invoiceservices.OrdenService;
+import com.waldomilanes.invoice.pojos.Orden;
+import com.waldomilanes.invoice.services.OrdenService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;

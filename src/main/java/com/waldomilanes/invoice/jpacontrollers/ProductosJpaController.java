@@ -5,8 +5,8 @@
  */
 package com.waldomilanes.invoice.jpacontrollers;
 
-import edu.exceptions.NonexistentEntityException;
-import edu.exceptions.PreexistingEntityException;
+import com.exceptions.NonexistentEntityException;
+import com.exceptions.PreexistingEntityException;
 import com.waldomilanes.invoice.pojos.Productos;
 import java.io.Serializable;
 import java.util.List;

@@ -5,7 +5,7 @@
  */
 package com.waldomilanes.invoice.services;
 
-import edu.exceptions.NonexistentEntityException;
+import com.exceptions.NonexistentEntityException;
 import com.waldomilanes.invoice.jpacontrollers.OrdenJpaController;
 import com.waldomilanes.invoice.pojos.Orden;
 import java.sql.SQLException;

@@ -16,7 +16,7 @@ import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
-import javax.xml.bind.annotation.XmlRootElement;
+// import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
@@ -24,7 +24,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  */
 @Entity
 @Table(name = "orden_detalle")
-@XmlRootElement
+// @XmlRootElement
 @NamedQueries({
     @NamedQuery(name = "OrdenDetalle.findAll", query = "SELECT o FROM OrdenDetalle o")
     , @NamedQuery(name = "OrdenDetalle.findByNoOrden", query = "SELECT o FROM OrdenDetalle o WHERE o.noOrden = :noOrden")

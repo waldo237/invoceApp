@@ -5,7 +5,6 @@
  */
 package com.waldomilanes.invoice;
 import com.waldomilanes.invoice.viewers.Logger;
-import static java.lang.Thread.sleep;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
@@ -170,8 +169,6 @@ public class Splash extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        
-        
         try {
             
             UIManager.setLookAndFeel("com.jtattoo.plaf.graphite.GraphiteLookAndFeel");
@@ -182,8 +179,6 @@ public class Splash extends javax.swing.JFrame {
         } catch (UnsupportedLookAndFeelException unsupportedLookAndFeelException) {
         }
        
-        
-        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 SpringApplication.run(Splash.class, args);

@@ -92,7 +92,4 @@ public class ClienteRESTController {
         }
 
     }
-            public static void main(String [] args){
-                new ClienteRESTController().deleteCliente("13");
-            }
 }

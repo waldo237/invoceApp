@@ -1,8 +1,8 @@
 
-package com.waldomilanes.invoicewebservice;
+package com.waldomilanes.invoice.webservice;
 
-import com.waldomilanes.invoicepojos.OrdenDetalle;
-import com.waldomilanes.invoiceservices.OrdenDetalleService;
+import com.waldomilanes.invoice.pojos.OrdenDetalle;
+import com.waldomilanes.invoice.services.OrdenDetalleService;
 import java.util.List;
 import javax.swing.JOptionPane;
 import org.springframework.beans.factory.annotation.Autowired;

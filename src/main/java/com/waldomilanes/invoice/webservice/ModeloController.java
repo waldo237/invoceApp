@@ -1,8 +1,8 @@
-package com.waldomilanes.invoicewebservice;
+package com.waldomilanes.invoice.webservice;
 
 
-import com.waldomilanes.invoicejpacontrollers.Decision;
-import com.waldomilanes.invoiceservices.DefaultTableModelService;
+import com.waldomilanes.invoice.jpacontrollers.Decision;
+import com.waldomilanes.invoice.services.DefaultTableModelService;
 import javax.swing.table.DefaultTableModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;

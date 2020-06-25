@@ -1,7 +1,7 @@
 
 package com.waldomilanes.invoice.jpacontrollers;
 
-import edu.exceptions.NonexistentEntityException;
+import com.exceptions.NonexistentEntityException;
 import com.waldomilanes.invoice.pojos.Session;
 import java.io.Serializable;
 import javax.persistence.Query;

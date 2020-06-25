@@ -152,6 +152,13 @@
             <artifactId>javaee-web-api</artifactId>
             <version>7.0</version>
         </dependency>
+         <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-simple</artifactId>
+        <version>1.7.28</version>
+    </dependency>
+
+ 
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
